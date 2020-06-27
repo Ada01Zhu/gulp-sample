@@ -1,0 +1,230 @@
+.right {
+  padding: 0;
+  float: right;
+}
+
+.left {
+  padding: 0;
+  float: left;
+}
+
+.image {
+  width: 60%;
+  height: 50%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background: url("/img/template/bj.jpg") 0 bottom repeat-x;
+  background-size: cover;
+  overflow: auto;
+}
+
+.titleSpanW {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.titleSpanF {
+  font-weight: bold;
+  color: #ffff00;
+}
+
+.mianSpanF {
+  font-weight: bold;
+  color: #ffff00;
+  font-size: 30px;
+}
+
+.pFontF {
+  padding-top: 20%;
+  font-weight: bold;
+  color: #ffff00;
+  font-size: 1vm;
+}
+
+.pFontW {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1vm;
+}
+
+.pFontUp {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.mainTop1 {
+  width: 100%;
+  height: 4vw;
+  background: url("/img/template/indexTitle.png") 0 bottom repeat-x;
+  background-size: cover;
+  overflow: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.mainImgDiv1 {
+  height: auto !important;
+  height: 15vw;
+  min-height: 15vw;
+  width: auto !important;
+  width: 15vw;
+  min-width: 15vw;
+  background: url("/img/template/hy_tx_bj.png") 0 bottom repeat-x;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImgDiv2 {
+  height: 18vw;
+  width: 18vw;
+  background: url("/img/template/indexMainRigthBig.png") 0 bottom repeat-x;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.leftSpanCenter {
+  position: absolute;
+  z-index: 3;
+}
+
+.rightSpanCenter {
+  padding: 0;
+  position: absolute;
+  margin-left: 18%;
+  z-index: 4;
+}
+
+.right1 {
+  margin-top: 60%;
+  right: 23%;
+  width: 10vw;
+  background: url("/img/template/left03.png") 0 bottom repeat-x;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  z-index: 4;
+}
+
+.right2 {
+  margin-top: 5%;
+  width: 73%;
+  background: url("/img/template/left02.png") 0 bottom repeat-x;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+}
+
+.right3 {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 25%;
+  background: url("/img/template/left01.png") 0 bottom repeat-x;
+  background-size: cover;
+  position: relative;
+  z-index: 4;
+}
+
+.left1 {
+  margin-top: 60%;
+  margin-left: -10%;
+  width: 10vw;
+  background: url("/img/template/right03.png") 0 bottom repeat-x;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  z-index: 4;
+}
+
+.left2 {
+  margin-top: 5%;
+  left: -5%;
+  width: 80%;
+  background: url("/img/template/right02.png") 0 bottom repeat-x;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+}
+
+.left3 {
+  margin-top: 5%;
+  margin-left: -6%;
+  margin-right: 40%;
+  background: url("/img/template/right01.png") 0 bottom repeat-x;
+  background-size: cover;
+  position: relative;
+  z-index: 4;
+}
+
+.peopleNumber {
+  height: 6vw;
+  width: 6vw;
+  background: url("/img/template/pfc_bj.png") 0 bottom repeat-x;
+  background-size: cover;
+  text-align: center;
+  right: 50%;
+}
+
+.up {
+  height: 8vw;
+  width: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upImg {
+  height: 8vw;
+  width: 8vw;
+  background: url("/img/template/btn_tc.png") 0 bottom repeat-x;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.upRightImg {
+  height: 6vw;
+  width: 10vw;
+  background: url("/img/template/jx_bj01.png") 0 bottom repeat-x;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  padding-right: 8%;
+  margin-top: 3%;
+  z-index: 2;
+}
+
+.el-form-item__contentReload {
+  position: relative;
+  font-size: 14px;
+}
+
+.el-main {
+  height: auto !important;
+  height: 22vw;
+  min-height: 22vw;
+}
